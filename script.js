@@ -1,11 +1,7 @@
 function firstChar(text) {
   // your code here
-	let p=text.charAt(0);
-	if(p===' '||p===''){
-		return '';
-	}
-	else{
-		return p;
+	let p=text.trim().charAt(0);
+	return p;
 	}
 }
 
