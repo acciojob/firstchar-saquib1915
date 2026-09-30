@@ -1,5 +1,12 @@
 function firstChar(text) {
   // your code here
+	let p=text.charAt(0);
+	if(p===' '||p===''){
+		return '';
+	}
+	else{
+		return p;
+	}
 }
 
 // Do not change the code below
